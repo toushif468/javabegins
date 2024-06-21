@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    
+
+    <button onclick="PickComputerMove() 
+     let result = '';
+
+     if (computerMove === 'Rock') {
+            result = 'TIE';
+        } else if (
+            (computerMove === 'Scissors') ||
+            (computerMove === 'Rock') ||
+            (computerMove === 'Paper')
+        ) {
+            result = 'You Win';
+        } else {
+            result = 'You Lose';
+        }
+    ">Rock</button>
+
+
+    <script>
+    // let computerMove = '';
+    // function PickComputerMove()
+    // {
+    //     const randomNumber = Math.random();
+
+        
+    //     if (randomNumber >= 0 && randomNumber < 1/3) {
+    //         computerMove = 'Rock';
+    //     } else if (randomNumber >= 1/3 && randomNumber < 2/3) {
+    //         computerMove = 'Paper';
+    //     } else if (randomNumber >= 2/3 && randomNumber <= 1) {
+    //         computerMove = 'Scissors';
+    //     }
+
+    //     return alert(`You Picked ${userMove}. Computer Picked ${computerMove}. ${result}`);
+        
+    // }
+
+    function calculateTax()
+    {
+        console.log(1000*0.1);
+
+    }
+    calculateTax();
+    </script>
+</body>
+</html>

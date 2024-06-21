@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball</title>
+</head>
+<body>
+    <script>
+        function compare(Product1, Product2)
+        {
+            if(Product1.price<Product2.price)
+            {
+                return Product1;
+            }else{
+                return Product2;
+
+            }
+        }
+
+        Product1= {
+        name: 'basketball',
+        price: 2095  
+    };
+
+    Product2= {
+        name: 'socks',
+        price: 1095
+
+    };
+
+    // console.log(product1);
+    // product.price=+500;
+    // console.log(product2);
+    // product1['delivery-time'] = '3 day';
+    console.log(compare(Product1, Product2));
+
+    </script>
+
+</body>
+</html>
